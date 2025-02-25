@@ -137,6 +137,138 @@ body {
     padding-top: 50px;
 }
 
+.timelinesec .heading h1 {
+    color: #fafafa;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.timelinesec .content .verticalline {
+    width: 1px;
+    height: 55px;
+    background-color: #f9f9f9;
+    margin-left: 12px;
+    margin-right: 12px;
+
+
+}
+
+.timelinesec .content .badgeelement {
+    border-radius: 100%;
+    border: 2px solid #14ceca;
+    height: 25px;
+    width: 25px;
+}
+
+.timelinesec .content .card {
+    background-color: #2d2b2b;
+    margin-left: -50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.timelinesec .content .card .card-body h5 {
+    color: #14ceca;
+    font-size: 15px;
+
+}
+
+.timelinesec .content .card .card-body h4 {
+    color: #fafafa;
+    font-size: 15px;
+}
+
+.timelinesec .content .card .card-body p {
+    color: #6c758d;
+    font-size: 15px;
+
+}
+
+
+.contactme {
+
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+
+}
+
+.contactme h1 {
+    color: #fafafa;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.contactme .formsec form {
+    margin-top: 50px;
+
+}
+
+.contactme .formsec form .form-control {
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.contactme .formsec form input {
+    background-color: transparent;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: none;
+
+}
+
+.contactme .formsec form input::placeholder {
+
+    color: #f9f9f9;
+    opacity: 0.5;
+
+}
+
+.contactme .formsec form input:focus {
+    border: 1px solid #14ceca;
+}
+
+
+.contactme .formsec form .container .custom-textbox {
+    background-color: transparent;
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    border-color: #fafafa;
+
+
+
+}
+
+.contactme .formsec form .container .custom-textbox:focus {
+    border: 1px solid #14ceca;
+}
+
+.contactme .formsec form .custom-textbox::placeholder {
+    color: #f9f9f9;
+    opacity: 0.5;
+    padding-left: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.contactme .formsec form button {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to right, #0d8edc, #14d0ca);
+    font-weight: 600;
+
+}
+
+
+
 .footer h1 {
     color: #f9f9f9;
     font-size: 15px;
@@ -161,5 +293,132 @@ body {
     font-size: 15px;
     font-weight: 500;
     margin-top: 30px;
+
+}
+
+@media (max-width: 576px) {
+    .aboutsec {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+    }
+
+    .timelinesec {
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    .footer h1 {
+        margin-left: -45px;
+        font-size: 15px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+    
+    .footer i {
+       margin: -30px;
+       font-size: 25px;
+    }
+    
+    
+    .footer p {
+        font-size: 12px;
+        margin-left: -45px;
+        margin-top: auto;
+       }
+.contactme{
+    padding-left: 20px;
+}
+}
+
+
+@media (max-width: 991px) {
+    .navbar button:focus {
+        box-shadow: none;
+    }
+
+    .navbar button .material-symbols-outlined {
+        font-size: 40px;
+        color: #fafafa;
+        outline: none;
+    }
+
+    .landing-sec h3 {
+
+        font-size: 18px;
+
+    }
+
+    .landing-sec h1 {
+        font-size: 72px;
+
+    }
+
+    .landing-sec p {
+        font-size: 15px;
+
+    }
+
+    .timelinesec .content .verticalline {
+        display: none;
+    }
+
+    .timelinesec .content .badgeelement {
+        display: none;
+    }
+
+    .timelinesec {
+        padding-left: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .timelinesec .heading h1 {
+        font-size: 45px;
+        margin-left: -30px;
+    }
+
+    .timelinesec.content .card {
+        padding-left: -30px;
+    }
+
+
+
+}
+
+@media (max-width: 489px) {
+    .landing-sec h3 {
+
+        font-size: 15px;
+
+    }
+
+    .landing-sec h1 {
+        font-size: 42px;
+
+    }
+
+    .landing-sec p {
+        font-size: 13px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .landing-sec h3 {
+
+        font-size: 13px;
+
+    }
+
+    .landing-sec h1 {
+        font-size: 39px;
+
+    }
+
+    .landing-sec p {
+        font-size: 11px;
+
+    }
 
 }
