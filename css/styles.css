@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu");
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -74,76 +75,6 @@ body {
     border-radius: 17px;
     margin-top: 10px;
 }
-
-/* Responsive Design */
-@media (max-width: 992px) {
-    .landing-sec h1 {
-        font-size: 60px;
-    }
-    .navbar .navbar-nav .nav-item a {
-        margin-left: 15px;
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 768px) {
-    .landing-sec {
-        padding-top: 100px;
-    }
-    .landing-sec h1 {
-        font-size: 50px;
-    }
-    .landing-sec p {
-        font-size: 16px;
-    }
-    .aboutsec {
-        padding-left: 20px;
-        text-align: center;
-    }
-    .aboutsec h1 {
-        font-size: 45px;
-    }
-    .aboutsec p {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 576px) {
-    .landing-sec h1 {
-        font-size: 40px;
-        padding-left: 10px;
-    }
-    .landing-sec p {
-        font-size: 14px;
-    }
-    .navbar .navbar-brand {
-        font-size: 14px;
-    }
-    .aboutsec h1 {
-        font-size: 35px;
-    }
-    .aboutsec p {
-        font-size: 13px;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .aboutsec {
