@@ -231,19 +231,26 @@ body {
     border: 1px solid #14ceca;
 }
 
+.contactme .formsec form input {
+    color: #fafafa;
+}
 
 .contactme .formsec form .container .custom-textbox {
     background-color: transparent;
     height: 150px;
-    width: 100%;
-    border-radius: 10px;
+    width: 658px;
+    border-radius: 22px;
     box-shadow: 0;
     margin-bottom: 20px;
     margin-left: -10px;
     border-color: #fafafa;
 
+}
 
-
+#textbox {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .contactme .formsec form .container .custom-textbox:focus {
@@ -307,27 +314,29 @@ body {
         padding-left: 20px;
         padding-right: 30px;
     }
+
     .footer h1 {
         margin-left: -25px;
         font-size: 15px;
         margin-bottom: 10px;
         font-weight: 500;
     }
-    
+
     .footer i {
-       margin: -10px;
-       font-size: 25px;
+        margin: -10px;
+        font-size: 25px;
     }
-    
-    
+
+
     .footer p {
         font-size: 12px;
         margin-left: -20px;
         margin-top: auto;
-       }
-.contactme{
-    padding-left: 20px;
-}
+    }
+
+    .contactme {
+        padding-left: 50px;
+    }
 
 
 }
