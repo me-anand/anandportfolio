@@ -141,6 +141,8 @@ body {
     color: #fafafa;
     font-size: 50px;
     font-weight: 700;
+    margin-left: 10px;
+
 }
 
 .timelinesec .content .verticalline {
@@ -162,9 +164,11 @@ body {
 
 .timelinesec .content .card {
     background-color: #2d2b2b;
-    margin-left: -50px;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left: -50px;
+    width: 870px;
+
 
 }
 
@@ -238,7 +242,7 @@ body {
 .contactme .formsec form .container .custom-textbox {
     background-color: transparent;
     height: 150px;
-    width: 658px;
+
     border-radius: 22px;
     box-shadow: 0;
     margin-bottom: 20px;
@@ -251,6 +255,7 @@ body {
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
+    width: 658px;
 }
 
 .contactme .formsec form .container .custom-textbox:focus {
@@ -273,8 +278,6 @@ body {
     font-weight: 600;
 
 }
-
-
 
 .footer h1 {
     color: #f9f9f9;
@@ -302,7 +305,13 @@ body {
     margin-top: 30px;
 
 }
+@media (max-width: 576px) {
+    
 
+    .timelinesec {
+       width: 555px;
+    }
+}
 @media (max-width: 576px) {
     .aboutsec {
         padding-top: 50px;
@@ -311,9 +320,11 @@ body {
     }
 
     .timelinesec {
-        padding-left: 20px;
+         padding-left: 20px; 
         padding-right: 30px;
     }
+
+    
 
     .footer h1 {
         margin-left: -25px;
@@ -338,9 +349,13 @@ body {
         padding-left: 50px;
     }
 
-
 }
 
+@media (max-width: 992px) {
+    .timelinesec .content .card {
+        width: 615px;
+    }
+}
 
 @media (max-width: 991px) {
     .navbar button:focus {
@@ -391,8 +406,13 @@ body {
 
     .timelinesec.content .card {
         padding-left: -30px;
+
+
     }
 
+    .timelinesec .content .card {
+        width: 450px;
+    }
 
 
 }
