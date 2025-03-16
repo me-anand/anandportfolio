@@ -130,7 +130,6 @@ body {
     width: 150px;
     font-weight: 600;
     border-radius: 17px;
-    margin-top: 10px;
 }
 
 .aboutsec img {
@@ -141,8 +140,6 @@ body {
     color: #fafafa;
     font-size: 50px;
     font-weight: 700;
-    margin-left: 10px;
-
 }
 
 .timelinesec .content .verticalline {
@@ -164,11 +161,8 @@ body {
 
 .timelinesec .content .card {
     background-color: #2d2b2b;
-    margin-top: 15px;
+    margin-top: 35px;
     margin-bottom: 15px;
-    margin-left: -50px;
-    width: 870px;
-
 
 }
 
@@ -234,28 +228,25 @@ body {
 .contactme .formsec form input:focus {
     border: 1px solid #14ceca;
 }
-
-.contactme .formsec form input {
-    color: #fafafa;
+.contactme .formsec form input:focus{
+color: #fafafa;
 }
 
 .contactme .formsec form .container .custom-textbox {
     background-color: transparent;
     height: 150px;
-
     border-radius: 22px;
     box-shadow: 0;
     margin-bottom: 20px;
     margin-left: -10px;
     border-color: #fafafa;
 
-}
 
+}
 #textbox {
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
-    width: 658px;
 }
 
 .contactme .formsec form .container .custom-textbox:focus {
@@ -270,7 +261,6 @@ body {
     font-weight: 400;
 }
 
-
 .contactme .formsec form button {
     width: 100%;
     height: 50px;
@@ -278,6 +268,8 @@ body {
     font-weight: 600;
 
 }
+
+
 
 .footer h1 {
     color: #f9f9f9;
@@ -305,13 +297,9 @@ body {
     margin-top: 30px;
 
 }
-@media (max-width: 576px) {
-    
 
-    .timelinesec {
-       width: 555px;
-    }
-}
+
+
 @media (max-width: 576px) {
     .aboutsec {
         padding-top: 50px;
@@ -320,42 +308,38 @@ body {
     }
 
     .timelinesec {
-         padding-left: 20px; 
+        padding-left: 20px;
         padding-right: 30px;
     }
-
-    
-
     .footer h1 {
         margin-left: -25px;
         font-size: 15px;
         margin-bottom: 10px;
         font-weight: 500;
     }
-
+    
     .footer i {
-        margin: -10px;
-        font-size: 25px;
+       margin: -10px;
+       font-size: 25px;
     }
-
-
+    
+    
     .footer p {
         font-size: 12px;
         margin-left: -20px;
         margin-top: auto;
-    }
+       }
+.contactme{
+    padding-left: 50px;
+}
 
-    .contactme {
-        padding-left: 50px;
-    }
+.timelinesec{
+    width: auto;
+}
+
 
 }
 
-@media (max-width: 992px) {
-    .timelinesec .content .card {
-        width: 615px;
-    }
-}
 
 @media (max-width: 991px) {
     .navbar button:focus {
@@ -392,28 +376,13 @@ body {
         display: none;
     }
 
-    .timelinesec {
-        padding-left: 100px;
-    }
 }
 
 @media (max-width: 768px) {
 
     .timelinesec .heading h1 {
         font-size: 45px;
-        margin-left: -30px;
     }
-
-    .timelinesec.content .card {
-        padding-left: -30px;
-
-
-    }
-
-    .timelinesec .content .card {
-        width: 450px;
-    }
-
 
 }
 

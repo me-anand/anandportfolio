@@ -1,7 +1,7 @@
 const data = [
     {
-        title: " Lorem ipsum dolor, sit amet consectetur",
-        Date: "Oct 20, 2033",
+        title: " hi",
+        Date: "July 28, 2033",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste enim aliqu?id odio alias sed placeat odit aspernatur repellendus perferendis asperiores t odit aspernatur repellendusperferendis asperiores"
 
     },
@@ -18,24 +18,10 @@ const data = [
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste enim aliqu?id odio alias sed placeat odit aspernatur repellendus perferendis asperiores t odit aspernatur repellendusperferendis asperiores"
 
     },
-
-    {
-        title: " Lorem ipsum dolor, sit amet consectetur",
-        Date: "Oct 20, 2033",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste enim aliqu?id odio alias sed placeat odit aspernatur repellendus perferendis asperiores t odit aspernatur repellendusperferendis asperiores"
-
-    },
-
-    {
-        title: " Lorem ipsum dolor, sit amet consectetur",
-        Date: "Oct 20, 2033",
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste enim aliqu?id odio alias sed placeat odit aspernatur repellendus perferendis asperiores t odit aspernatur repellendusperferendis asperiores"
-
-    }
 
 
 ]
-const timelineContainer = document.getElementById(timelineContainer);
+const timelineContainer = document.getElementById('time');
 const timeline = data.map((timeline, i) => {
     return(
     `
@@ -52,7 +38,7 @@ const timeline = data.map((timeline, i) => {
                     <div class="card-body">
                         <div class="d-flex justify-content-between">
                             <h5> ${timeline.title} </h5>
-                            <h4>${timeline.date}</h4>
+                            <h4>${timeline.Date}</h4>
                         </div>
                         <p>${timeline.desc}</p>
 
